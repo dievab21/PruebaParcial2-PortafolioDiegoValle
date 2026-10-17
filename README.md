@@ -30,20 +30,24 @@ src/
 Cual es es la forma para que se vea el año actual y que actue de manera independiente?
 
 código usado.
+```
 const anioActual = new Date().getFullYear();
+```
 
 Necesito que resalta el diseño en tres pantallas de forma simultanea dame una forma dinamica
 
 Se creo una carpeta index.html para configurar de manera ordenada este apartado.
 código usado.
+```
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;800;900&display=swap" rel="stylesheet">
+```
 
 Paso de vista portafolio.
 
-```bash
-   cd PruebaParcial2-PortafolioDiegoValle
+```
+cd PruebaParcial2-PortafolioDiegoValle
 npm install
 npm run dev
 http://localhost:5173/ 
